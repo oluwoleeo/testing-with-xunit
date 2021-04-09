@@ -2,7 +2,7 @@
 
 namespace AlgosLib
 {
-    public class Class1
+    public class Algos
     {
         public static int[] SortArray(params int[] arr)
         {

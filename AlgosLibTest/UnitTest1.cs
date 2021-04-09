@@ -13,7 +13,7 @@ namespace AlgosLibTest
 
             // Act
             int[] expected = new int[] { 1, 7, 9, 20, 25, 36, 42 };
-            int[] actual = Class1.SortArray(testArray);
+            int[] actual = Algos.SortArray(testArray);
 
             // Assert
             Assert.Equal(expected, actual);
@@ -27,7 +27,7 @@ namespace AlgosLibTest
 
             // Act
             int expected = 4;
-            int actual = Class1.SearchArray(25, testArray);
+            int actual = Algos.SearchArray(25, testArray);
 
             // Assert
             Assert.Equal(expected, actual);
@@ -39,7 +39,7 @@ namespace AlgosLibTest
         {
             // Act
             int expected = 4;
-            int actual = Class1.SearchArray(25, testArray);
+            int actual = Algos.SearchArray(25, testArray);
 
             // Assert
             Assert.True(expected == actual);
@@ -53,7 +53,7 @@ namespace AlgosLibTest
 
             // Act
             int expected = 2;
-            int actual = Class1.Fibonacci(n);
+            int actual = Algos.Fibonacci(n);
 
             // Assert
             Assert.Equal(expected, actual);
